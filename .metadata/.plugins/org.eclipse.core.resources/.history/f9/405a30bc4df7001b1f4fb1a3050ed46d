@@ -1,0 +1,38 @@
+
+public class SingletionClass {
+	
+	public static void main(String[] args) {
+		
+		MyClass obj1=MyClass.getInstance();
+		//Abc obj2=new Abc();
+		
+		System.out.println(obj1);
+		
+	}
+
+}
+
+class MyClass{
+	
+	
+	//create a static instance 
+	static MyClass obj=new MyClass(); // we are writing static here because, the method below is static 
+	//and will return the same object
+	
+	
+	//create a private constructor
+	private MyClass(){
+		
+	}
+	
+	//static method that will return the object
+	public static MyClass getInstance(){
+		
+		return obj;
+		
+	}
+	
+	
+	
+	
+}

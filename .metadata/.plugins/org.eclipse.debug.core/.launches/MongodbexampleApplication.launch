@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/mongodbexample/mongodbexample/src/main/java/com/mongodbexample/mongodbexample/MongodbexampleApplication.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.mongodbexample.mongodbexample.MongodbexampleApplication"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="mongodbexample"/>
+</launchConfiguration>
