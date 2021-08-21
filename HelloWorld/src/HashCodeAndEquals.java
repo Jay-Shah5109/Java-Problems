@@ -4,8 +4,8 @@ public class HashCodeAndEquals {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Pen pen1=new Pen(10,"blue");
-		Pen pen2=new Pen(10,"blue");
+		MyPen pen1=new MyPen(10,"blue");
+		MyPen pen2=new MyPen(10,"blue");
 		
 		System.out.println(pen1.equals(pen2)); // This will output false since the object memory is stored at different location
 		
@@ -67,7 +67,7 @@ class Pen {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Pen other = (Pen) obj;
+		MyPen other = (MyPen) obj;
 		if (color == null) {
 			if (other.color != null)
 				return false;
